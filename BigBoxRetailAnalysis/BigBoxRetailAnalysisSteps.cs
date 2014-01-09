@@ -18,7 +18,7 @@ namespace BigBoxRetailAnalysis
         private string _appName;
         private string jobid;
         private string outputid;
-        private string validationId;
+      //  private string validationId;
         private string _appActualName;
         private dynamic statusresp;
 
@@ -78,8 +78,8 @@ namespace BigBoxRetailAnalysis
 
             //url +"/apps/" + appPackageId + "/interface/
             //Get the app interface - not required
-            string appinterface = Obj.GetAppInterface(_appid);
-            dynamic interfaceresp = JsonConvert.DeserializeObject(appinterface);
+            //string appinterface = Obj.GetAppInterface(_appid);
+            //dynamic interfaceresp = JsonConvert.DeserializeObject(appinterface);
 
             //Construct the payload to be posted.
             List<JsonPayload.Question> questionAnsls = new List<JsonPayload.Question>();

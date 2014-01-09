@@ -77,7 +77,7 @@ namespace BigBoxRetailAnalysis
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("run BigBox Retail App and check for output")]
-        [NUnit.Framework.TestCaseAttribute("Big Box Retail Analysis", "5", "25", "Big Box Comparison Report", null)]
+        [NUnit.Framework.TestCaseAttribute("Retail Ops - Big Box Retail Analysis", "5", "25", "Big Box Comparison Report", null)]
         public virtual void RunBigBoxRetailAppAndCheckForOutput(string app, string competitiveTradeAreaSizeMiles, string maximumTravelDistanceTradeAreaSizeMiles, string text, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("run BigBox Retail App and check for output", exampleTags);

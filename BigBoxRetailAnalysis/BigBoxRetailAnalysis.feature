@@ -14,4 +14,4 @@ Then I see the text in the output "<text>"
 
 Examples: 
 | app                     | Competitive Trade Area Size (Miles) | Maximum Travel Distance Trade Area Size (Miles) | text                                              |
-| Big Box Retail Analysis | 5                                   | 25                                              | Big Box Comparison Report                         |
+| Retail Ops - Big Box Retail Analysis | 5                                   | 25                                              | Big Box Comparison Report                         |
